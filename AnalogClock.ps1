@@ -7,3 +7,4 @@ if ($bool){
 else{
     Write-Output "時計を起動します"
 }
+Start-Sleep 1
