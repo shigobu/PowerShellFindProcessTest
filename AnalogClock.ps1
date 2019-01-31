@@ -6,5 +6,6 @@ if ($bool){
 }
 else{
     Write-Output "時計を起動します"
+    Start-Process -FilePath C:\kasamatsu\VS2017\AnalogClockWPF\アナログ時計WPF\bin\Release\アナログ時計WPF.exe -ArgumentList "/touka /secHand /minHand /date /Opacity 60 /size 400"
 }
 Start-Sleep 1
